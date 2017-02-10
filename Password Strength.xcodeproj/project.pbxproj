@@ -14,6 +14,8 @@
 		513DBD751E4D526D00F7B43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 513DBD731E4D526D00F7B43D /* LaunchScreen.storyboard */; };
 		513DBD801E4D526D00F7B43D /* Password_StrengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DBD7F1E4D526D00F7B43D /* Password_StrengthTests.swift */; };
 		513DBD8B1E4D526D00F7B43D /* Password_StrengthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DBD8A1E4D526D00F7B43D /* Password_StrengthUITests.swift */; };
+		513DBD991E4D531900F7B43D /* String+EntropyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DBD981E4D531900F7B43D /* String+EntropyTests.swift */; };
+		513DBD9B1E4D551700F7B43D /* String+Entropy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DBD9A1E4D551700F7B43D /* String+Entropy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		513DBD861E4D526D00F7B43D /* Password StrengthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password StrengthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		513DBD8A1E4D526D00F7B43D /* Password_StrengthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_StrengthUITests.swift; sourceTree = "<group>"; };
 		513DBD8C1E4D526D00F7B43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513DBD981E4D531900F7B43D /* String+EntropyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EntropyTests.swift"; sourceTree = "<group>"; };
+		513DBD9A1E4D551700F7B43D /* String+Entropy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Entropy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				513DBD6A1E4D526D00F7B43D /* AppDelegate.swift */,
 				513DBD6C1E4D526D00F7B43D /* ViewController.swift */,
+				513DBD981E4D531900F7B43D /* String+EntropyTests.swift */,
+				513DBD9A1E4D551700F7B43D /* String+Entropy.swift */,
 				513DBD6E1E4D526D00F7B43D /* Main.storyboard */,
 				513DBD711E4D526D00F7B43D /* Assets.xcassets */,
 				513DBD731E4D526D00F7B43D /* LaunchScreen.storyboard */,
@@ -261,6 +267,7 @@
 			files = (
 				513DBD6D1E4D526D00F7B43D /* ViewController.swift in Sources */,
 				513DBD6B1E4D526D00F7B43D /* AppDelegate.swift in Sources */,
+				513DBD9B1E4D551700F7B43D /* String+Entropy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513DBD991E4D531900F7B43D /* String+EntropyTests.swift in Sources */,
 				513DBD801E4D526D00F7B43D /* Password_StrengthTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
