@@ -4,34 +4,36 @@ import XCTest
 class String_EntropyTests: XCTestCase {
     func testStringEntropy() {
         var subject = ""
+        let accuracy = 0.00000001
+        
         XCTAssertEqual(subject.entropy, 0)
         
         subject = "a"
-        XCTAssertEqual(subject.entropy, 4.70043971814)
+        XCTAssertEqualWithAccuracy(subject.entropy, 4.70043971814, accuracy: accuracy)
 
         subject = "!"
-        XCTAssertEqual(subject.entropy, 5)
+        XCTAssertEqualWithAccuracy(subject.entropy, 5, accuracy: accuracy)
 
         subject = "1"
-        XCTAssertEqual(subject.entropy, 3.32192809489)
+        XCTAssertEqualWithAccuracy(subject.entropy, 3.32192809489, accuracy: accuracy)
 
         subject = "B"
-        XCTAssertEqual(subject.entropy, 4.70043971814)
+        XCTAssertEqualWithAccuracy(subject.entropy, 4.70043971814, accuracy: accuracy)
 
         subject = "aaaaaaaaaaaaaaaaaaaa"
-        XCTAssertEqual(subject.entropy, 94.0087943628)
+        XCTAssertEqualWithAccuracy(subject.entropy, 94.0087943628, accuracy: accuracy)
 
         subject = "aaaaaaaaaaaaaaaaaaa!"
-        XCTAssertEqual(subject.entropy, 117.159619903)
+        XCTAssertEqualWithAccuracy(subject.entropy, 117.159619903, accuracy: accuracy)
 
         subject = "aaaaaaaaaaaaaaaaaa!1"
-        XCTAssertEqual(subject.entropy, 121.749256825)
+        XCTAssertEqualWithAccuracy(subject.entropy, 121.749256825, accuracy: accuracy)
 
         subject = "aaaaaaaaaaaaaaaaa1!B"
-        XCTAssertEqual(subject.entropy, 131.091777034)
+        XCTAssertEqualWithAccuracy(subject.entropy, 131.091777034, accuracy: accuracy)
         
-        // subject = "anu17diha792udb1i$an"
-        // XCTAssertEqual(subject.entropy, 0)
+        subject = "anu17diha792udV1i!an"
+        XCTAssertEqualWithAccuracy(subject.entropy, 131.091777034, accuracy: accuracy)
 
         
     }

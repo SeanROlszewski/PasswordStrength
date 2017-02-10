@@ -22,11 +22,11 @@ extension String {
             if containsPunctuation {
                 possibleCombinations += 32
             }
-            return self.characters.reduce(0.0) { (result, char) in
-                let jesus = pow(Double(possibleCombinations), Double(self.characters.count))
-                let value = log2(jesus)
-                return value + result
+            
+            let jesus = pow(Double(possibleCombinations), Double(self.characters.count))
+            let value = log2(jesus)
+            
+            return value
             }
         }
     }
-}
