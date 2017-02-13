@@ -3,10 +3,10 @@ import Foundation
 extension String {
     var entropy: Double {
         get {
-            let containsLowercaseLetters = rangeOfCharacter(from: CharacterSet.lowercaseLetters) != nil
-            let containsUppercaseLetters = rangeOfCharacter(from:CharacterSet.uppercaseLetters) != nil
-            let containsNumbers = rangeOfCharacter(from: CharacterSet.decimalDigits) != nil
-            let containsPunctuation = rangeOfCharacter(from: CharacterSet.punctuationCharacters) != nil
+            let containsLowercaseLetters = self.rangeOfCharacter(from: CharacterSet.lowercaseLetters) != nil
+            let containsUppercaseLetters = self.rangeOfCharacter(from: CharacterSet.uppercaseLetters) != nil
+            let containsNumbers = self.rangeOfCharacter(from: CharacterSet.decimalDigits) != nil
+            let containsPunctuation = self.rangeOfCharacter(from: CharacterSet.punctuationCharacters) != nil
 
             var possibleCombinations = 0
             
@@ -23,10 +23,16 @@ extension String {
                 possibleCombinations += 32
             }
             
-            let jesus = pow(Double(possibleCombinations), Double(self.characters.count))
-            let value = log2(jesus)
-            
-            return value
-            }
+            let numberOfCombinations = pow(Double(possibleCombinations), Double(self.characters.count))
+            return log2(numberOfCombinations)
         }
     }
+    
+    var averageEntropy: Double {
+        if self.isEmpty {
+            return 0
+        }
+        
+        return self.entropy/Double(self.characters.count)
+    }
+}
