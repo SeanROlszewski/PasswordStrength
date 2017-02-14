@@ -1,8 +1,8 @@
-extension Int {
-    func map(from domain: CountableClosedRange<Int>, to codomain: CountableClosedRange<Int>) -> Int {
-        let outRange = codomain.max()! - codomain.min()!
-        let inRange = domain.max()! - domain.min()!
-        return (((self - domain.min()!) * outRange) / inRange) + codomain.min()!
+extension Double {
+    func map(from domainMin: Double, to domainMax: Double, within codomainMin: Double, and codomainMax: Double) -> Double {
+        let outRange = codomainMax - codomainMin
+        let inRange = domainMax - domainMin
+        return (((self - domainMin) * outRange) / inRange) + codomainMin
     }
 }
 

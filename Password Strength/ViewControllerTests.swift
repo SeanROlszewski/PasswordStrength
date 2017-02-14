@@ -14,9 +14,10 @@ class ViewControllerTests: XCTestCase {
         XCTAssertTrue(subject.textField(subject.passwordTextField,
                                          shouldChangeCharactersIn: NSRange(),
                                          replacementString: ""))
+        
         subject.passwordTextField.text = ""
         let initialColor = subject.passwordTextField.backgroundColor
-        XCTAssertEqual(initialColor, UIColor.white)
+        XCTAssertEqual(initialColor, UIColor.red)
         
         subject.passwordTextField.text = "Any"
         _ = subject.textField(subject.passwordTextField,
