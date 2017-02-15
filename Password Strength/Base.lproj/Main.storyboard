@@ -69,6 +69,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="createAccountButton" destination="GeY-wc-i7u" id="pxv-zr-jIp"/>
                         <outlet property="passwordTextField" destination="lRh-3V-Xmd" id="jvx-Ql-H1u"/>
                         <outlet property="usernameTextField" destination="bvJ-tG-9sC" id="iGm-ZV-o76"/>
                     </connections>

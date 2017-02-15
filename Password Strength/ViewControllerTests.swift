@@ -10,7 +10,7 @@ class ViewControllerTests: XCTestCase {
         _ = subject.view
     }
     
-    func testExample() {
+    func testPasswordTextFieldUpdatesOnUserInput() {
         XCTAssertTrue(subject.textField(subject.passwordTextField,
                                          shouldChangeCharactersIn: NSRange(),
                                          replacementString: ""))

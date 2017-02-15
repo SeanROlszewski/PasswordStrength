@@ -3,9 +3,13 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var createAccountButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        createAccountButton.accessibilityIdentifier = "PWSSubmitLogin"
+        usernameTextField.accessibilityIdentifier = "PWSUsername"
+        passwordTextField.accessibilityIdentifier = "PWSPassword"
         passwordTextField.delegate = self
         passwordTextField.backgroundColor = UIColor.red
     }

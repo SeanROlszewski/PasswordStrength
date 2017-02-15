@@ -11,6 +11,5 @@ class NumberMappingTests: XCTestCase {
         XCTAssertEqualWithAccuracy(5.map(from: 0, to: 10, within: 10, and: 5), 7.5, accuracy: accuracy)
         XCTAssertEqualWithAccuracy(10.map(from: 0, to: 10, within: 10, and: 5), 5, accuracy: accuracy)
         XCTAssertEqualWithAccuracy(10.map(from: 0, to: 10, within: 0, and: 20), 20, accuracy: accuracy)
-        
     }
 }
