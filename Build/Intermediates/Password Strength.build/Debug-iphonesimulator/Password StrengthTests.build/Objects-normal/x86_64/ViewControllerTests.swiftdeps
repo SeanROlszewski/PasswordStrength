@@ -19,7 +19,6 @@ depends-top-level:
 - "MockNotificationCenter"
 - !private "Notification"
 - !private "StringLiteralType"
-- !private "UIColor"
 - !private "UIStoryboard"
 - !private "UITextField"
 - !private "UnicodeScalarType"
@@ -32,7 +31,6 @@ depends-top-level:
 depends-member:
 - !private ["Ps9AnyObject", "MockNotificationCenter"]
 - !private ["Ps9AnyObject", "Notification"]
-- !private ["Ps9AnyObject", "UIColor"]
 - !private ["Ps9AnyObject", "UIStoryboard"]
 - !private ["Ps9AnyObject", "XCTAssert"]
 - !private ["Ps9AnyObject", "XCTAssertEqual"]
@@ -57,7 +55,6 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["Ps7CVarArg", "MockNotificationCenter"]
 - !private ["Ps7CVarArg", "Notification"]
-- !private ["Ps7CVarArg", "UIColor"]
 - !private ["Ps7CVarArg", "UIStoryboard"]
 - !private ["Ps7CVarArg", "XCTAssert"]
 - !private ["Ps7CVarArg", "XCTAssertEqual"]
@@ -81,7 +78,6 @@ depends-member:
 - !private ["Ps10Comparable", "isEmpty"]
 - !private ["Ps28CustomDebugStringConvertible", "MockNotificationCenter"]
 - !private ["Ps28CustomDebugStringConvertible", "Notification"]
-- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
 - !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
 - !private ["Ps28CustomDebugStringConvertible", "UITextFieldTextDidChange"]
 - !private ["Ps28CustomDebugStringConvertible", "XCTAssert"]
@@ -110,7 +106,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "white"]
 - !private ["Ps23CustomStringConvertible", "MockNotificationCenter"]
 - !private ["Ps23CustomStringConvertible", "Notification"]
-- !private ["Ps23CustomStringConvertible", "UIColor"]
 - !private ["Ps23CustomStringConvertible", "UIStoryboard"]
 - !private ["Ps23CustomStringConvertible", "XCTAssert"]
 - !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
@@ -131,7 +126,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "MockNotificationCenter"]
 - !private ["Ps9Equatable", "Notification"]
-- !private ["Ps9Equatable", "UIColor"]
 - !private ["Ps9Equatable", "UIStoryboard"]
 - !private ["Ps9Equatable", "UITextFieldTextDidChange"]
 - !private ["Ps9Equatable", "XCTAssert"]
@@ -162,7 +156,6 @@ depends-member:
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
 - !private ["Ps8Hashable", "MockNotificationCenter"]
 - !private ["Ps8Hashable", "Notification"]
-- !private ["Ps8Hashable", "UIColor"]
 - !private ["Ps8Hashable", "UIStoryboard"]
 - !private ["Ps8Hashable", "UITextFieldTextDidChange"]
 - !private ["Ps8Hashable", "XCTAssert"]
@@ -210,7 +203,6 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "isEmpty"]
 - ["CSo8NSObject", "MockNotificationCenter"]
 - !private ["CSo8NSObject", "Notification"]
-- !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UIStoryboard"]
 - !private ["CSo8NSObject", "UITextField"]
 - ["CSo8NSObject", "ViewController"]
@@ -236,7 +228,6 @@ depends-member:
 - !private ["CSo8NSObject", "white"]
 - !private ["PSo16NSObjectProtocol", "MockNotificationCenter"]
 - !private ["PSo16NSObjectProtocol", "Notification"]
-- !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIStoryboard"]
 - !private ["PSo16NSObjectProtocol", "XCTAssert"]
 - !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
@@ -326,9 +317,6 @@ depends-member:
 - !private ["CSo12UIStoryboard", "instantiateInitialViewController"]
 - !private ["CSo11UITextField", "backgroundColor"]
 - !private ["CSo11UITextField", "text"]
-- !private ["PSo19UITextFieldDelegate", "notificationCenter"]
-- !private ["PSo19UITextFieldDelegate", "passwordTextField"]
-- !private ["PSo19UITextFieldDelegate", "view"]
 - !private ["PSo11UITextInput", "backgroundColor"]
 - !private ["PSo11UITextInput", "text"]
 - !private ["PSo17UITextInputTraits", "backgroundColor"]
@@ -348,7 +336,6 @@ depends-member:
 - !private ["C17Password_Strength14ViewController", "view"]
 - ["C22Password_StrengthTests19ViewControllerTests", "MockNotificationCenter"]
 - !private ["C22Password_StrengthTests19ViewControllerTests", "Notification"]
-- !private ["C22Password_StrengthTests19ViewControllerTests", "UIColor"]
 - !private ["C22Password_StrengthTests19ViewControllerTests", "UIStoryboard"]
 - !private ["C22Password_StrengthTests19ViewControllerTests", "UITextField"]
 - ["C22Password_StrengthTests19ViewControllerTests", "ViewController"]
@@ -366,7 +353,6 @@ depends-member:
 - ["C22Password_StrengthTests19ViewControllerTests", "testRegistersForNotifications"]
 - !private ["PSo17XCTWaiterDelegate", "MockNotificationCenter"]
 - !private ["PSo17XCTWaiterDelegate", "Notification"]
-- !private ["PSo17XCTWaiterDelegate", "UIColor"]
 - !private ["PSo17XCTWaiterDelegate", "UIStoryboard"]
 - !private ["PSo17XCTWaiterDelegate", "XCTAssert"]
 - !private ["PSo17XCTWaiterDelegate", "XCTAssertEqual"]
@@ -378,7 +364,6 @@ depends-member:
 - ["PSo17XCTWaiterDelegate", ""]
 - ["CSo6XCTest", "MockNotificationCenter"]
 - !private ["CSo6XCTest", "Notification"]
-- !private ["CSo6XCTest", "UIColor"]
 - !private ["CSo6XCTest", "UIStoryboard"]
 - !private ["CSo6XCTest", "UITextField"]
 - ["CSo6XCTest", "ViewController"]
@@ -395,7 +380,6 @@ depends-member:
 - ["CSo6XCTest", "testRegistersForNotifications"]
 - ["CSo10XCTestCase", "MockNotificationCenter"]
 - !private ["CSo10XCTestCase", "Notification"]
-- !private ["CSo10XCTestCase", "UIColor"]
 - !private ["CSo10XCTestCase", "UIStoryboard"]
 - !private ["CSo10XCTestCase", "UITextField"]
 - ["CSo10XCTestCase", "ViewController"]
@@ -429,7 +413,6 @@ depends-member:
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
 - !private ["Ps9_Hashable", "MockNotificationCenter"]
 - !private ["Ps9_Hashable", "Notification"]
-- !private ["Ps9_Hashable", "UIColor"]
 - !private ["Ps9_Hashable", "UIStoryboard"]
 - !private ["Ps9_Hashable", "UITextFieldTextDidChange"]
 - !private ["Ps9_Hashable", "XCTAssert"]
@@ -508,7 +491,6 @@ depends-nominal:
 - !private "PSo16UIStateRestoring"
 - !private "CSo12UIStoryboard"
 - !private "CSo11UITextField"
-- !private "PSo19UITextFieldDelegate"
 - !private "PSo11UITextInput"
 - !private "PSo17UITextInputTraits"
 - !private "PSo18UITraitEnvironment"

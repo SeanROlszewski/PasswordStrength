@@ -6,20 +6,10 @@ provides-nominal:
 provides-member:
 - ["C17Password_Strength11AppDelegate", ""]
 provides-dynamic-lookup:
-- "application"
-- "applicationDidBecomeActive"
-- "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
-- "applicationWillResignActive"
-- "applicationWillTerminate"
 - "window"
 depends-top-level:
 - "AppDelegate"
-- "Bool"
-- !private "BooleanLiteralType"
-- "UIApplication"
 - "UIApplicationDelegate"
-- "UIApplicationLaunchOptionsKey"
 - "UIResponder"
 - "UIWindow"
 depends-member:
@@ -38,9 +28,6 @@ depends-member:
 - !private ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
-- ["C17Password_Strength11AppDelegate", "Bool"]
-- ["C17Password_Strength11AppDelegate", "UIApplication"]
-- ["C17Password_Strength11AppDelegate", "UIApplicationLaunchOptionsKey"]
 - ["C17Password_Strength11AppDelegate", "UIWindow"]
 - ["C17Password_Strength11AppDelegate", "application"]
 - ["C17Password_Strength11AppDelegate", "applicationDidBecomeActive"]
@@ -132,9 +119,6 @@ depends-member:
 - !private ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
-- ["CSo8NSObject", "Bool"]
-- ["CSo8NSObject", "UIApplication"]
-- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
 - ["CSo8NSObject", "UIWindow"]
 - ["CSo8NSObject", "application"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
@@ -179,9 +163,6 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
-- ["CSo11UIResponder", "Bool"]
-- ["CSo11UIResponder", "UIApplication"]
-- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
 - ["CSo11UIResponder", "UIWindow"]
 - ["CSo11UIResponder", "application"]
 - ["CSo11UIResponder", "applicationDidBecomeActive"]
@@ -260,4 +241,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "b306772a10463f7c5fce689aa6452f8e"
+interface-hash: "c45d1591ddf649c59d29451bf145503a"

@@ -24,9 +24,7 @@ class ViewControllerTests: XCTestCase {
     func testPasswordTextFieldUpdatesOnUserInput() {
         subject.passwordTextField.text = ""
         mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
-        
-        let initialColor = subject.passwordTextField.backgroundColor
-        XCTAssertEqual(initialColor, UIColor.red)
+        let emptyColor = subject.passwordTextField.backgroundColor
         
         subject.passwordTextField.text = "Any"
         mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
@@ -40,7 +38,8 @@ class ViewControllerTests: XCTestCase {
         mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
         let thirdColor = subject.passwordTextField.backgroundColor
         
-        XCTAssertTrue(initialColor !== firstColor)
+        XCTAssertEqual(emptyColor, .red)
+        XCTAssertTrue(emptyColor !== firstColor)
         XCTAssertTrue(firstColor !== secondColor)
         XCTAssertTrue(secondColor !== thirdColor)
     }

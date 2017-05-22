@@ -16,17 +16,13 @@ class ViewController: UIViewController {
         createAccountButton.accessibilityIdentifier = "PWSSubmitLogin"
         usernameTextField.accessibilityIdentifier = "PWSUsername"
         passwordTextField.accessibilityIdentifier = "PWSPassword"
-        passwordTextField.delegate = self
         passwordTextField.backgroundColor = .white
-        notificationCenter.addObserver(forName: .UITextFieldTextDidChange, object: passwordTextField, queue: nil) { (_) in
-            self.handlePasswordTextField()
+        _ = notificationCenter.addObserver(forName: .UITextFieldTextDidChange, object: passwordTextField, queue: nil) { (_) in
+            self.updatePasswordTextField()
         }
     }
-}
-
-extension ViewController: UITextFieldDelegate {
     
-    fileprivate func handlePasswordTextField() {
+    fileprivate func updatePasswordTextField() {
         guard let passwordText = passwordTextField.text,
             !passwordText.isEmpty else {
                 UIView.animate(withDuration: 0.25) {
@@ -50,7 +46,7 @@ extension ViewController: UITextFieldDelegate {
             if entropy >= 70 {
                 self.passwordTextField.backgroundColor = UIColor(red: 0, green: color, blue: 0, alpha: 1.0 )
             } else {
-                self.passwordTextField.backgroundColor = UIColor(red: 1-color, green: color, blue: 0, alpha: 1.0 )
+                self.passwordTextField.backgroundColor = UIColor(red: 1 - color, green: color, blue: 0, alpha: 1.0 )
             }
         }
     }
