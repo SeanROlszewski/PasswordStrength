@@ -38,7 +38,7 @@ class String_EntropyTests: XCTestCase {
         subject = "aaaaaaaaaaaaaaaaa1!B"
         XCTAssertEqualWithAccuracy(subject.entropy, 131.091777034, accuracy: accuracy)
         
-        subject = "anu17diha792udV1i!an"
+        subject = "anu17diha79_udV1i1an"
         XCTAssertEqualWithAccuracy(subject.entropy, 131.091777034, accuracy: accuracy)
     }
     

@@ -7,6 +7,7 @@ extension String {
             let containsUppercaseLetters = self.rangeOfCharacter(from: CharacterSet.uppercaseLetters) != nil
             let containsNumbers = self.rangeOfCharacter(from: CharacterSet.decimalDigits) != nil
             let containsPunctuation = self.rangeOfCharacter(from: CharacterSet.punctuationCharacters) != nil
+            
 
             var possibleCombinations = 0
             

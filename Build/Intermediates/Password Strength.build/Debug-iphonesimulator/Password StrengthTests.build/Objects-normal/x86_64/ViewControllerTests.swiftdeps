@@ -1,0 +1,589 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewControllerTests"
+provides-nominal:
+- "C22Password_StrengthTests19ViewControllerTests"
+provides-member:
+- ["C22Password_StrengthTests19ViewControllerTests", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "subject"
+- "testPasswordFieldHasWhiteBackgroundWhenEmpty"
+- "testPasswordFieldRejectsSpaces"
+- "testPasswordTextFieldUpdatesOnUserInput"
+- "testRegistersForNotifications"
+depends-top-level:
+- !private "!=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "MockNotificationCenter"
+- !private "Notification"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "UIStoryboard"
+- !private "UITextField"
+- !private "UnicodeScalarType"
+- "ViewController"
+- "ViewControllerTests"
+- !private "XCTAssert"
+- !private "XCTAssertEqual"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+depends-member:
+- !private ["Ps9AnyObject", "MockNotificationCenter"]
+- !private ["Ps9AnyObject", "Notification"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIStoryboard"]
+- !private ["Ps9AnyObject", "XCTAssert"]
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- !private ["Ps9AnyObject", "XCTAssertTrue"]
+- !private ["Ps9AnyObject", "addObserverCall"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateInitialViewController"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "mockNotificationCenter"]
+- !private ["Ps9AnyObject", "notificationCenter"]
+- !private ["Ps9AnyObject", "passwordTextField"]
+- !private ["Ps9AnyObject", "post"]
+- !private ["Ps9AnyObject", "red"]
+- !private ["Ps9AnyObject", "setUp"]
+- !private ["Ps9AnyObject", "subject"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "white"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "backgroundColor"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "MockNotificationCenter"]
+- !private ["Ps7CVarArg", "Notification"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UIStoryboard"]
+- !private ["Ps7CVarArg", "XCTAssert"]
+- !private ["Ps7CVarArg", "XCTAssertEqual"]
+- !private ["Ps7CVarArg", "XCTAssertTrue"]
+- !private ["Ps7CVarArg", "backgroundColor"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateInitialViewController"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "mockNotificationCenter"]
+- !private ["Ps7CVarArg", "notificationCenter"]
+- !private ["Ps7CVarArg", "passwordTextField"]
+- !private ["Ps7CVarArg", "red"]
+- !private ["Ps7CVarArg", "setUp"]
+- !private ["Ps7CVarArg", "subject"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps7CVarArg", "white"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "UITextFieldTextDidChange"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "MockNotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "Notification"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
+- !private ["Ps28CustomDebugStringConvertible", "UITextFieldTextDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssert"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertTrue"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateInitialViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "mockNotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "notificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "passwordTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "red"]
+- !private ["Ps28CustomDebugStringConvertible", "setUp"]
+- !private ["Ps28CustomDebugStringConvertible", "subject"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "white"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "UITextFieldTextDidChange"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "red"]
+- !private ["Ps17CustomReflectable", "white"]
+- !private ["Ps23CustomStringConvertible", "MockNotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "Notification"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIStoryboard"]
+- !private ["Ps23CustomStringConvertible", "XCTAssert"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertTrue"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateInitialViewController"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "mockNotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "notificationCenter"]
+- !private ["Ps23CustomStringConvertible", "passwordTextField"]
+- !private ["Ps23CustomStringConvertible", "red"]
+- !private ["Ps23CustomStringConvertible", "setUp"]
+- !private ["Ps23CustomStringConvertible", "subject"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "white"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "MockNotificationCenter"]
+- !private ["Ps9Equatable", "Notification"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIStoryboard"]
+- !private ["Ps9Equatable", "UITextFieldTextDidChange"]
+- !private ["Ps9Equatable", "XCTAssert"]
+- !private ["Ps9Equatable", "XCTAssertEqual"]
+- !private ["Ps9Equatable", "XCTAssertTrue"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateInitialViewController"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "mockNotificationCenter"]
+- !private ["Ps9Equatable", "notificationCenter"]
+- !private ["Ps9Equatable", "passwordTextField"]
+- !private ["Ps9Equatable", "red"]
+- !private ["Ps9Equatable", "setUp"]
+- !private ["Ps9Equatable", "subject"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "white"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps23ExpressibleByNilLiteral", "UITextFieldTextDidChange"]
+- !private ["Ps23ExpressibleByNilLiteral", "red"]
+- !private ["Ps23ExpressibleByNilLiteral", "white"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps8Hashable", "MockNotificationCenter"]
+- !private ["Ps8Hashable", "Notification"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIStoryboard"]
+- !private ["Ps8Hashable", "UITextFieldTextDidChange"]
+- !private ["Ps8Hashable", "XCTAssert"]
+- !private ["Ps8Hashable", "XCTAssertEqual"]
+- !private ["Ps8Hashable", "XCTAssertTrue"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateInitialViewController"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "mockNotificationCenter"]
+- !private ["Ps8Hashable", "notificationCenter"]
+- !private ["Ps8Hashable", "passwordTextField"]
+- !private ["Ps8Hashable", "red"]
+- !private ["Ps8Hashable", "setUp"]
+- !private ["Ps8Hashable", "subject"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "white"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["C22Password_StrengthTests22MockNotificationCenter", "addObserverCall"]
+- !private ["C22Password_StrengthTests22MockNotificationCenter", "deinit"]
+- !private ["C22Password_StrengthTests22MockNotificationCenter", "init"]
+- !private ["C22Password_StrengthTests22MockNotificationCenter", "post"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "notificationCenter"]
+- !private ["PSo8NSCoding", "passwordTextField"]
+- !private ["PSo8NSCoding", "red"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "white"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "red"]
+- !private ["PSo9NSCopying", "white"]
+- !private ["PSo26NSExtensionRequestHandling", "notificationCenter"]
+- !private ["PSo26NSExtensionRequestHandling", "passwordTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- ["CSo8NSObject", "MockNotificationCenter"]
+- !private ["CSo8NSObject", "Notification"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- !private ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "ViewController"]
+- !private ["CSo8NSObject", "XCTAssert"]
+- !private ["CSo8NSObject", "XCTAssertEqual"]
+- !private ["CSo8NSObject", "XCTAssertTrue"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateInitialViewController"]
+- !private ["CSo8NSObject", "isEmpty"]
+- ["CSo8NSObject", "mockNotificationCenter"]
+- !private ["CSo8NSObject", "notificationCenter"]
+- !private ["CSo8NSObject", "passwordTextField"]
+- !private ["CSo8NSObject", "red"]
+- ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "subject"]
+- ["CSo8NSObject", "testPasswordFieldHasWhiteBackgroundWhenEmpty"]
+- ["CSo8NSObject", "testPasswordFieldRejectsSpaces"]
+- ["CSo8NSObject", "testPasswordTextFieldUpdatesOnUserInput"]
+- ["CSo8NSObject", "testRegistersForNotifications"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "view"]
+- !private ["CSo8NSObject", "white"]
+- !private ["PSo16NSObjectProtocol", "MockNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "Notification"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- !private ["PSo16NSObjectProtocol", "XCTAssert"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertTrue"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateInitialViewController"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "mockNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "notificationCenter"]
+- !private ["PSo16NSObjectProtocol", "passwordTextField"]
+- !private ["PSo16NSObjectProtocol", "red"]
+- !private ["PSo16NSObjectProtocol", "setUp"]
+- !private ["PSo16NSObjectProtocol", "subject"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "white"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "red"]
+- !private ["PSo14NSSecureCoding", "white"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["VCSo14NSNotification4Name", "UITextFieldTextDidChange"]
+- !private ["V10Foundation12Notification", "init"]
+- !private ["P17Password_Strength26NotificationCenterProtocol", "addObserverCall"]
+- !private ["P17Password_Strength26NotificationCenterProtocol", "init"]
+- !private ["P17Password_Strength26NotificationCenterProtocol", "post"]
+- !private ["Sq", "UITextFieldTextDidChange"]
+- !private ["Sq", "red"]
+- !private ["Sq", "white"]
+- !private ["Ps16RawRepresentable", "UITextFieldTextDidChange"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "notificationCenter"]
+- !private ["PSo21UIAppearanceContainer", "passwordTextField"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["CSo7UIColor", "red"]
+- !private ["CSo7UIColor", "white"]
+- !private ["PSo18UIContentContainer", "notificationCenter"]
+- !private ["PSo18UIContentContainer", "passwordTextField"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "backgroundColor"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "backgroundColor"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "notificationCenter"]
+- !private ["PSo18UIFocusEnvironment", "passwordTextField"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo11UIFocusItem", "backgroundColor"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "backgroundColor"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "notificationCenter"]
+- !private ["CSo11UIResponder", "passwordTextField"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "view"]
+- !private ["PSo30UIResponderStandardEditActions", "backgroundColor"]
+- !private ["PSo30UIResponderStandardEditActions", "notificationCenter"]
+- !private ["PSo30UIResponderStandardEditActions", "passwordTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- !private ["PSo16UIStateRestoring", "notificationCenter"]
+- !private ["PSo16UIStateRestoring", "passwordTextField"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateInitialViewController"]
+- !private ["CSo11UITextField", "backgroundColor"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo19UITextFieldDelegate", "notificationCenter"]
+- !private ["PSo19UITextFieldDelegate", "passwordTextField"]
+- !private ["PSo19UITextFieldDelegate", "view"]
+- !private ["PSo11UITextInput", "backgroundColor"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "backgroundColor"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "notificationCenter"]
+- !private ["PSo18UITraitEnvironment", "passwordTextField"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "notificationCenter"]
+- !private ["CSo16UIViewController", "passwordTextField"]
+- !private ["CSo16UIViewController", "view"]
+- !private ["C17Password_Strength14ViewController", "notificationCenter"]
+- !private ["C17Password_Strength14ViewController", "passwordTextField"]
+- !private ["C17Password_Strength14ViewController", "view"]
+- ["C22Password_StrengthTests19ViewControllerTests", "MockNotificationCenter"]
+- !private ["C22Password_StrengthTests19ViewControllerTests", "Notification"]
+- !private ["C22Password_StrengthTests19ViewControllerTests", "UIColor"]
+- !private ["C22Password_StrengthTests19ViewControllerTests", "UIStoryboard"]
+- !private ["C22Password_StrengthTests19ViewControllerTests", "UITextField"]
+- ["C22Password_StrengthTests19ViewControllerTests", "ViewController"]
+- !private ["C22Password_StrengthTests19ViewControllerTests", "XCTAssert"]
+- !private ["C22Password_StrengthTests19ViewControllerTests", "XCTAssertEqual"]
+- !private ["C22Password_StrengthTests19ViewControllerTests", "XCTAssertTrue"]
+- ["C22Password_StrengthTests19ViewControllerTests", "deinit"]
+- ["C22Password_StrengthTests19ViewControllerTests", "init"]
+- ["C22Password_StrengthTests19ViewControllerTests", "mockNotificationCenter"]
+- ["C22Password_StrengthTests19ViewControllerTests", "setUp"]
+- ["C22Password_StrengthTests19ViewControllerTests", "subject"]
+- ["C22Password_StrengthTests19ViewControllerTests", "testPasswordFieldHasWhiteBackgroundWhenEmpty"]
+- ["C22Password_StrengthTests19ViewControllerTests", "testPasswordFieldRejectsSpaces"]
+- ["C22Password_StrengthTests19ViewControllerTests", "testPasswordTextFieldUpdatesOnUserInput"]
+- ["C22Password_StrengthTests19ViewControllerTests", "testRegistersForNotifications"]
+- !private ["PSo17XCTWaiterDelegate", "MockNotificationCenter"]
+- !private ["PSo17XCTWaiterDelegate", "Notification"]
+- !private ["PSo17XCTWaiterDelegate", "UIColor"]
+- !private ["PSo17XCTWaiterDelegate", "UIStoryboard"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssert"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertEqual"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertTrue"]
+- !private ["PSo17XCTWaiterDelegate", "init"]
+- !private ["PSo17XCTWaiterDelegate", "mockNotificationCenter"]
+- !private ["PSo17XCTWaiterDelegate", "setUp"]
+- !private ["PSo17XCTWaiterDelegate", "subject"]
+- ["PSo17XCTWaiterDelegate", ""]
+- ["CSo6XCTest", "MockNotificationCenter"]
+- !private ["CSo6XCTest", "Notification"]
+- !private ["CSo6XCTest", "UIColor"]
+- !private ["CSo6XCTest", "UIStoryboard"]
+- !private ["CSo6XCTest", "UITextField"]
+- ["CSo6XCTest", "ViewController"]
+- !private ["CSo6XCTest", "XCTAssert"]
+- !private ["CSo6XCTest", "XCTAssertEqual"]
+- !private ["CSo6XCTest", "XCTAssertTrue"]
+- ["CSo6XCTest", "init"]
+- ["CSo6XCTest", "mockNotificationCenter"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "subject"]
+- ["CSo6XCTest", "testPasswordFieldHasWhiteBackgroundWhenEmpty"]
+- ["CSo6XCTest", "testPasswordFieldRejectsSpaces"]
+- ["CSo6XCTest", "testPasswordTextFieldUpdatesOnUserInput"]
+- ["CSo6XCTest", "testRegistersForNotifications"]
+- ["CSo10XCTestCase", "MockNotificationCenter"]
+- !private ["CSo10XCTestCase", "Notification"]
+- !private ["CSo10XCTestCase", "UIColor"]
+- !private ["CSo10XCTestCase", "UIStoryboard"]
+- !private ["CSo10XCTestCase", "UITextField"]
+- ["CSo10XCTestCase", "ViewController"]
+- !private ["CSo10XCTestCase", "XCTAssert"]
+- !private ["CSo10XCTestCase", "XCTAssertEqual"]
+- !private ["CSo10XCTestCase", "XCTAssertTrue"]
+- ["CSo10XCTestCase", "init"]
+- ["CSo10XCTestCase", "mockNotificationCenter"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "subject"]
+- ["CSo10XCTestCase", "testPasswordFieldHasWhiteBackgroundWhenEmpty"]
+- ["CSo10XCTestCase", "testPasswordFieldRejectsSpaces"]
+- ["CSo10XCTestCase", "testPasswordTextFieldUpdatesOnUserInput"]
+- ["CSo10XCTestCase", "testRegistersForNotifications"]
+- ["CSo10XCTestCase", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps26_ExpressibleByColorLiteral", "red"]
+- !private ["Ps26_ExpressibleByColorLiteral", "white"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps9_Hashable", "MockNotificationCenter"]
+- !private ["Ps9_Hashable", "Notification"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UIStoryboard"]
+- !private ["Ps9_Hashable", "UITextFieldTextDidChange"]
+- !private ["Ps9_Hashable", "XCTAssert"]
+- !private ["Ps9_Hashable", "XCTAssertEqual"]
+- !private ["Ps9_Hashable", "XCTAssertTrue"]
+- !private ["Ps9_Hashable", "backgroundColor"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateInitialViewController"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps9_Hashable", "mockNotificationCenter"]
+- !private ["Ps9_Hashable", "notificationCenter"]
+- !private ["Ps9_Hashable", "passwordTextField"]
+- !private ["Ps9_Hashable", "red"]
+- !private ["Ps9_Hashable", "setUp"]
+- !private ["Ps9_Hashable", "subject"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps9_Hashable", "white"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "UITextFieldTextDidChange"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "red"]
+- !private ["Ps21_ObjectiveCBridgeable", "white"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UITextFieldTextDidChange"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "C22Password_StrengthTests22MockNotificationCenter"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "VCSo14NSNotification4Name"
+- !private "V10Foundation12Notification"
+- !private "P17Password_Strength26NotificationCenterProtocol"
+- !private "Sq"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- !private "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- !private "CSo11UITextField"
+- !private "PSo19UITextFieldDelegate"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "C17Password_Strength14ViewController"
+- "C22Password_StrengthTests19ViewControllerTests"
+- "PSo17XCTWaiterDelegate"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/seandorian/Code/Password Strength/Build/Products/Debug-iphonesimulator/Password_Strength.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "c0e60f9f8130667adecf9dd015d1a61c"

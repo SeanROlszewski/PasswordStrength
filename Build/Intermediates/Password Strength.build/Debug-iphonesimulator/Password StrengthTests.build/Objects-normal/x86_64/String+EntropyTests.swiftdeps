@@ -1,0 +1,307 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "String_EntropyTests"
+provides-nominal:
+- "C22Password_StrengthTests19String_EntropyTests"
+provides-member:
+- ["C22Password_StrengthTests19String_EntropyTests", ""]
+provides-dynamic-lookup:
+- "accuracy"
+- "setUp"
+- "subject"
+- "testAverageStringEntropy"
+- "testStringEntropy"
+depends-top-level:
+- "AssignmentPrecedence"
+- "String"
+- !private "StringLiteralType"
+- "String_EntropyTests"
+- !private "UnicodeScalarType"
+- !private "XCTAssertEqual"
+- !private "XCTAssertEqualWithAccuracy"
+- "XCTestCase"
+depends-member:
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- !private ["Ps9AnyObject", "XCTAssertEqualWithAccuracy"]
+- !private ["Ps9AnyObject", "accuracy"]
+- !private ["Ps9AnyObject", "averageEntropy"]
+- !private ["Ps9AnyObject", "entropy"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "setUp"]
+- !private ["Ps9AnyObject", "subject"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "XCTAssertEqual"]
+- !private ["Ps7CVarArg", "XCTAssertEqualWithAccuracy"]
+- !private ["Ps7CVarArg", "accuracy"]
+- !private ["Ps7CVarArg", "averageEntropy"]
+- !private ["Ps7CVarArg", "entropy"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "setUp"]
+- !private ["Ps7CVarArg", "subject"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "averageEntropy"]
+- !private ["Ps10Comparable", "entropy"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqualWithAccuracy"]
+- !private ["Ps28CustomDebugStringConvertible", "accuracy"]
+- !private ["Ps28CustomDebugStringConvertible", "averageEntropy"]
+- !private ["Ps28CustomDebugStringConvertible", "entropy"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "setUp"]
+- !private ["Ps28CustomDebugStringConvertible", "subject"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "averageEntropy"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "entropy"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "averageEntropy"]
+- !private ["Ps17CustomReflectable", "entropy"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertEqualWithAccuracy"]
+- !private ["Ps23CustomStringConvertible", "accuracy"]
+- !private ["Ps23CustomStringConvertible", "averageEntropy"]
+- !private ["Ps23CustomStringConvertible", "entropy"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "setUp"]
+- !private ["Ps23CustomStringConvertible", "subject"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "XCTAssertEqual"]
+- !private ["Ps9Equatable", "XCTAssertEqualWithAccuracy"]
+- !private ["Ps9Equatable", "accuracy"]
+- !private ["Ps9Equatable", "averageEntropy"]
+- !private ["Ps9Equatable", "entropy"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "setUp"]
+- !private ["Ps9Equatable", "subject"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "averageEntropy"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "entropy"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "averageEntropy"]
+- !private ["Ps26ExpressibleByStringLiteral", "entropy"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "averageEntropy"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "entropy"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "XCTAssertEqual"]
+- !private ["Ps8Hashable", "XCTAssertEqualWithAccuracy"]
+- !private ["Ps8Hashable", "accuracy"]
+- !private ["Ps8Hashable", "averageEntropy"]
+- !private ["Ps8Hashable", "entropy"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "setUp"]
+- !private ["Ps8Hashable", "subject"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "averageEntropy"]
+- !private ["Ps25LosslessStringConvertible", "entropy"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "averageEntropy"]
+- !private ["Ps10MirrorPath", "entropy"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "averageEntropy"]
+- !private ["PSo8NSCoding", "entropy"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "averageEntropy"]
+- !private ["PSo9NSCopying", "entropy"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "averageEntropy"]
+- !private ["PSo16NSMutableCopying", "entropy"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "XCTAssertEqual"]
+- !private ["CSo8NSObject", "XCTAssertEqualWithAccuracy"]
+- ["CSo8NSObject", "accuracy"]
+- !private ["CSo8NSObject", "averageEntropy"]
+- !private ["CSo8NSObject", "entropy"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "subject"]
+- ["CSo8NSObject", "testAverageStringEntropy"]
+- ["CSo8NSObject", "testStringEntropy"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertEqualWithAccuracy"]
+- !private ["PSo16NSObjectProtocol", "accuracy"]
+- !private ["PSo16NSObjectProtocol", "averageEntropy"]
+- !private ["PSo16NSObjectProtocol", "entropy"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "setUp"]
+- !private ["PSo16NSObjectProtocol", "subject"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "averageEntropy"]
+- !private ["PSo14NSSecureCoding", "entropy"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "averageEntropy"]
+- !private ["CSo8NSString", "entropy"]
+- !private ["CSo8NSString", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "averageEntropy"]
+- !private ["SS", "entropy"]
+- !private ["SS", "init"]
+- ["C22Password_StrengthTests19String_EntropyTests", "String"]
+- !private ["C22Password_StrengthTests19String_EntropyTests", "XCTAssertEqual"]
+- !private ["C22Password_StrengthTests19String_EntropyTests", "XCTAssertEqualWithAccuracy"]
+- ["C22Password_StrengthTests19String_EntropyTests", "accuracy"]
+- ["C22Password_StrengthTests19String_EntropyTests", "deinit"]
+- ["C22Password_StrengthTests19String_EntropyTests", "init"]
+- ["C22Password_StrengthTests19String_EntropyTests", "setUp"]
+- ["C22Password_StrengthTests19String_EntropyTests", "subject"]
+- ["C22Password_StrengthTests19String_EntropyTests", "testAverageStringEntropy"]
+- ["C22Password_StrengthTests19String_EntropyTests", "testStringEntropy"]
+- !private ["Ps16TextOutputStream", "averageEntropy"]
+- !private ["Ps16TextOutputStream", "entropy"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "averageEntropy"]
+- !private ["Ps20TextOutputStreamable", "entropy"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertEqual"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertEqualWithAccuracy"]
+- !private ["PSo17XCTWaiterDelegate", "accuracy"]
+- !private ["PSo17XCTWaiterDelegate", "init"]
+- !private ["PSo17XCTWaiterDelegate", "setUp"]
+- !private ["PSo17XCTWaiterDelegate", "subject"]
+- ["PSo17XCTWaiterDelegate", ""]
+- ["CSo6XCTest", "String"]
+- !private ["CSo6XCTest", "XCTAssertEqual"]
+- !private ["CSo6XCTest", "XCTAssertEqualWithAccuracy"]
+- ["CSo6XCTest", "accuracy"]
+- ["CSo6XCTest", "init"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "subject"]
+- ["CSo6XCTest", "testAverageStringEntropy"]
+- ["CSo6XCTest", "testStringEntropy"]
+- ["CSo10XCTestCase", "String"]
+- !private ["CSo10XCTestCase", "XCTAssertEqual"]
+- !private ["CSo10XCTestCase", "XCTAssertEqualWithAccuracy"]
+- ["CSo10XCTestCase", "accuracy"]
+- ["CSo10XCTestCase", "init"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "subject"]
+- ["CSo10XCTestCase", "testAverageStringEntropy"]
+- ["CSo10XCTestCase", "testStringEntropy"]
+- ["CSo10XCTestCase", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "averageEntropy"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "entropy"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "averageEntropy"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "entropy"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "averageEntropy"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "entropy"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "averageEntropy"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "entropy"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "averageEntropy"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "entropy"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "averageEntropy"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "entropy"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "XCTAssertEqual"]
+- !private ["Ps9_Hashable", "XCTAssertEqualWithAccuracy"]
+- !private ["Ps9_Hashable", "accuracy"]
+- !private ["Ps9_Hashable", "averageEntropy"]
+- !private ["Ps9_Hashable", "entropy"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "setUp"]
+- !private ["Ps9_Hashable", "subject"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "averageEntropy"]
+- !private ["Ps21_ObjectiveCBridgeable", "entropy"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Vs12StaticString"
+- !private "SS"
+- "C22Password_StrengthTests19String_EntropyTests"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo17XCTWaiterDelegate"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/seandorian/Code/Password Strength/Build/Products/Debug-iphonesimulator/Password_Strength.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "62c88c583f58a81121c9142ed1a96e9c"

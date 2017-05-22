@@ -15,6 +15,8 @@
 		513DBD8B1E4D526D00F7B43D /* Password_StrengthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DBD8A1E4D526D00F7B43D /* Password_StrengthUITests.swift */; };
 		513DBD991E4D531900F7B43D /* String+EntropyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DBD981E4D531900F7B43D /* String+EntropyTests.swift */; };
 		513DBD9B1E4D551700F7B43D /* String+Entropy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DBD9A1E4D551700F7B43D /* String+Entropy.swift */; };
+		9D1771BC1ED28EE7000D69B4 /* NotificationCenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1771BA1ED28997000D69B4 /* NotificationCenterProtocol.swift */; };
+		9D1771BE1ED291A2000D69B4 /* MockNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1771BD1ED291A2000D69B4 /* MockNotificationCenter.swift */; };
 		9D2F10811E51442700E16215 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F10801E51442700E16215 /* ViewControllerTests.swift */; };
 		9D76CA351E5136BF00706393 /* NumberMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D76CA341E5136BF00706393 /* NumberMapping.swift */; };
 		9D76CA371E51383D00706393 /* NumberMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D76CA361E51383D00706393 /* NumberMappingTests.swift */; };
@@ -52,7 +54,9 @@
 		513DBD8C1E4D526D00F7B43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		513DBD981E4D531900F7B43D /* String+EntropyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+EntropyTests.swift"; path = "../Password Strength/String+EntropyTests.swift"; sourceTree = "<group>"; };
 		513DBD9A1E4D551700F7B43D /* String+Entropy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Entropy.swift"; sourceTree = "<group>"; };
-		9D2F10801E51442700E16215 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		9D1771BA1ED28997000D69B4 /* NotificationCenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationCenterProtocol.swift; path = "Password StrengthTests/NotificationCenterProtocol.swift"; sourceTree = SOURCE_ROOT; };
+		9D1771BD1ED291A2000D69B4 /* MockNotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNotificationCenter.swift; sourceTree = "<group>"; };
+		9D2F10801E51442700E16215 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerTests.swift; path = "../Password Strength/ViewControllerTests.swift"; sourceTree = "<group>"; };
 		9D76CA341E5136BF00706393 /* NumberMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberMapping.swift; sourceTree = "<group>"; };
 		9D76CA361E51383D00706393 /* NumberMappingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberMappingTests.swift; path = "../Password Strength/NumberMappingTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,8 +113,8 @@
 				513DBD6C1E4D526D00F7B43D /* ViewController.swift */,
 				513DBD9A1E4D551700F7B43D /* String+Entropy.swift */,
 				9D76CA341E5136BF00706393 /* NumberMapping.swift */,
+				9D1771BA1ED28997000D69B4 /* NotificationCenterProtocol.swift */,
 				513DBD6E1E4D526D00F7B43D /* Main.storyboard */,
-				9D2F10801E51442700E16215 /* ViewControllerTests.swift */,
 				513DBD711E4D526D00F7B43D /* Assets.xcassets */,
 				513DBD731E4D526D00F7B43D /* LaunchScreen.storyboard */,
 				513DBD761E4D526D00F7B43D /* Info.plist */,
@@ -121,8 +125,10 @@
 		513DBD7E1E4D526D00F7B43D /* Password StrengthTests */ = {
 			isa = PBXGroup;
 			children = (
-				513DBD981E4D531900F7B43D /* String+EntropyTests.swift */,
 				9D76CA361E51383D00706393 /* NumberMappingTests.swift */,
+				513DBD981E4D531900F7B43D /* String+EntropyTests.swift */,
+				9D2F10801E51442700E16215 /* ViewControllerTests.swift */,
+				9D1771BD1ED291A2000D69B4 /* MockNotificationCenter.swift */,
 				513DBD811E4D526D00F7B43D /* Info.plist */,
 			);
 			path = "Password StrengthTests";
@@ -274,6 +280,7 @@
 				513DBD6D1E4D526D00F7B43D /* ViewController.swift in Sources */,
 				513DBD6B1E4D526D00F7B43D /* AppDelegate.swift in Sources */,
 				513DBD9B1E4D551700F7B43D /* String+Entropy.swift in Sources */,
+				9D1771BC1ED28EE7000D69B4 /* NotificationCenterProtocol.swift in Sources */,
 				9D76CA351E5136BF00706393 /* NumberMapping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D76CA371E51383D00706393 /* NumberMappingTests.swift in Sources */,
+				9D1771BE1ED291A2000D69B4 /* MockNotificationCenter.swift in Sources */,
 				513DBD991E4D531900F7B43D /* String+EntropyTests.swift in Sources */,
 				9D2F10811E51442700E16215 /* ViewControllerTests.swift in Sources */,
 			);

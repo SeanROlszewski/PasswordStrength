@@ -1,44 +1,65 @@
 import XCTest
+import UIKit
 @testable import Password_Strength
 
 class ViewControllerTests: XCTestCase {
     var subject: ViewController!
+    var mockNotificationCenter: MockNotificationCenter!
     
     override func setUp() {
         super.setUp()
+        mockNotificationCenter = MockNotificationCenter()
         subject = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! ViewController
+        subject.notificationCenter = mockNotificationCenter
         _ = subject.view
     }
     
+    func testRegistersForNotifications() {
+        XCTAssertEqual(mockNotificationCenter.addObserverCall.recieved?.name, .UITextFieldTextDidChange)
+        XCTAssertEqual(mockNotificationCenter.addObserverCall.recieved?.object as? UITextField, subject.passwordTextField)
+        XCTAssertEqual(mockNotificationCenter.addObserverCall.recieved?.queue, nil)
+    }
+    
+    
     func testPasswordTextFieldUpdatesOnUserInput() {
-        XCTAssertTrue(subject.textField(subject.passwordTextField,
-                                         shouldChangeCharactersIn: NSRange(),
-                                         replacementString: ""))
-        
         subject.passwordTextField.text = ""
+        mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
+        
         let initialColor = subject.passwordTextField.backgroundColor
         XCTAssertEqual(initialColor, UIColor.red)
         
         subject.passwordTextField.text = "Any"
-        _ = subject.textField(subject.passwordTextField,
-                          shouldChangeCharactersIn: NSRange(),
-                          replacementString: "")
+        mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
         let firstColor = subject.passwordTextField.backgroundColor
 
-        subject.passwordTextField.text = "Anyth1ng Else!"
-        _ = subject.textField(subject.passwordTextField,
-                          shouldChangeCharactersIn: NSRange(),
-                          replacementString: "")
+        subject.passwordTextField.text = "Anyth1ng_Else!"
+        mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
         let secondColor = subject.passwordTextField.backgroundColor
         
-        subject.passwordTextField.text = "Anyth1ng Else! B4Mc@"
-        _ = subject.textField(subject.passwordTextField,
-                          shouldChangeCharactersIn: NSRange(),
-                          replacementString: "")
+        subject.passwordTextField.text = "Anyth1ng_Else!_B4Mc@"
+        mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
         let thirdColor = subject.passwordTextField.backgroundColor
         
         XCTAssertTrue(initialColor !== firstColor)
         XCTAssertTrue(firstColor !== secondColor)
         XCTAssertTrue(secondColor !== thirdColor)
+    }
+    
+    func testPasswordFieldHasWhiteBackgroundWhenEmpty() {
+        XCTAssertEqual(subject.passwordTextField.backgroundColor, .white)
+        
+        subject.passwordTextField.text = "Anyth1ng_Else!"
+        mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
+        
+        subject.passwordTextField.text = ""
+        mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
+        
+        XCTAssertEqual(subject.passwordTextField.backgroundColor, .red)
+    }
+    
+    func testPasswordFieldRejectsSpaces() {
+        subject.passwordTextField.text = " "
+        mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
+        XCTAssert(subject.passwordTextField.text!.isEmpty)
     }
 }
