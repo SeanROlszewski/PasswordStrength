@@ -20,7 +20,6 @@ class ViewControllerTests: XCTestCase {
         XCTAssertEqual(mockNotificationCenter.addObserverCall.recieved?.queue, nil)
     }
     
-    
     func testPasswordTextFieldUpdatesOnUserInput() {
         subject.passwordTextField.text = ""
         mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
@@ -46,14 +45,6 @@ class ViewControllerTests: XCTestCase {
     
     func testPasswordFieldHasWhiteBackgroundWhenEmpty() {
         XCTAssertEqual(subject.passwordTextField.backgroundColor, .white)
-        
-        subject.passwordTextField.text = "Anyth1ng_Else!"
-        mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
-        
-        subject.passwordTextField.text = ""
-        mockNotificationCenter.post(Notification(name: .UITextFieldTextDidChange))
-        
-        XCTAssertEqual(subject.passwordTextField.backgroundColor, .red)
     }
     
     func testPasswordFieldRejectsSpaces() {

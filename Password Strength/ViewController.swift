@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     }
     
     fileprivate func updatePasswordTextField() {
+
         guard let passwordText = passwordTextField.text,
             !passwordText.isEmpty else {
                 UIView.animate(withDuration: 0.25) {
@@ -31,10 +32,8 @@ class ViewController: UIViewController {
                 return
         }
         
-        if passwordText.contains(" ") {
-            passwordTextField.text = passwordText.replacingOccurrences(of: " ", with: "")
-        }
-        
+        passwordTextField.text = passwordText.replacingOccurrences(of: " ", with: "")
+
         let entropy = passwordText.entropy
         animatePasswordFieldBackgroundColor(forEntropy: entropy)
     }

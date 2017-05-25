@@ -23,6 +23,7 @@ extension String {
             if containsPunctuation {
                 possibleCombinations += 32
             }
+
             
             let numberOfCombinations = pow(Double(possibleCombinations), Double(self.characters.count))
             return log2(numberOfCombinations)
