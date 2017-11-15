@@ -1,0 +1,176 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NumberMappingTests"
+provides-nominal:
+- "22Password_StrengthTests013NumberMappingC0C"
+provides-member:
+- ["22Password_StrengthTests013NumberMappingC0C", ""]
+provides-dynamic-lookup:
+- "accuracy"
+- "testMappingNumberBetweenRanges"
+depends-top-level:
+- "FloatLiteralType"
+- "NumberMappingTests"
+- !private "StringLiteralType"
+- !private "XCTAssertEqual"
+- "XCTestCase"
+depends-member:
+- !private ["s19BinaryFloatingPointP", "map"]
+- !private ["s13BinaryIntegerP", "map"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- !private ["s7CVarArgP", "accuracy"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- ["s7CVarArgP", ""]
+- !private ["s10ComparableP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "accuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "map"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- !private ["s23CustomStringConvertibleP", "accuracy"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "map"]
+- !private ["Sd", "map"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EquatableP", "XCTAssertEqual"]
+- !private ["s9EquatableP", "accuracy"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "map"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "map"]
+- !private ["s27ExpressibleByIntegerLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "map"]
+- !private ["s13FloatingPointP", "map"]
+- !private ["s8HashableP", "XCTAssertEqual"]
+- !private ["s8HashableP", "accuracy"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "map"]
+- ["s8HashableP", ""]
+- !private ["Si", "map"]
+- !private ["s25LosslessStringConvertibleP", "map"]
+- !private ["s10MirrorPathP", "map"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- ["So8NSObjectC", "accuracy"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "testMappingNumberBetweenRanges"]
+- !private ["So16NSObjectProtocolP", "XCTAssertEqual"]
+- !private ["So16NSObjectProtocolP", "accuracy"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["22Password_StrengthTests013NumberMappingC0C", "XCTAssertEqual"]
+- ["22Password_StrengthTests013NumberMappingC0C", "accuracy"]
+- ["22Password_StrengthTests013NumberMappingC0C", "deinit"]
+- ["22Password_StrengthTests013NumberMappingC0C", "init"]
+- ["22Password_StrengthTests013NumberMappingC0C", "testMappingNumberBetweenRanges"]
+- !private ["s7NumericP", "map"]
+- !private ["s13SignedIntegerP", "map"]
+- !private ["s13SignedNumericP", "map"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "map"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- !private ["So11XCTActivityP", "accuracy"]
+- !private ["So11XCTActivityP", "init"]
+- ["So11XCTActivityP", ""]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- !private ["So17XCTWaiterDelegateP", "accuracy"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- ["So6XCTestC", "accuracy"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "testMappingNumberBetweenRanges"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- ["So10XCTestCaseC", "accuracy"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "testMappingNumberBetweenRanges"]
+- ["So10XCTestCaseC", ""]
+- !private ["s18_BitwiseOperationsP", "map"]
+- !private ["s15_CVarArgAlignedP", "map"]
+- !private ["s22_CVarArgPassedAsDoubleP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "map"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "map"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accuracy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s11_StrideableP", "map"]
+depends-nominal:
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
+- "s7CVarArgP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "22Password_StrengthTests013NumberMappingC0C"
+- !private "s7NumericP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/seandorian/Code/PasswordStrength/Build/Intermediates/SwiftMigration/Password Strength/Products/Debug-iphonesimulator/Password_Strength.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "f97879a0c73fd1bf16f9d05abba3c78c"

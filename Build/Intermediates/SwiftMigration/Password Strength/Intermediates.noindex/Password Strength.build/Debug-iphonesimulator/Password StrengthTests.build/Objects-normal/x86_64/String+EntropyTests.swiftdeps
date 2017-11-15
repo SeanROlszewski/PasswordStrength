@@ -1,0 +1,309 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "String_EntropyTests"
+provides-nominal:
+- "22Password_StrengthTests014String_EntropyC0C"
+provides-member:
+- ["22Password_StrengthTests014String_EntropyC0C", ""]
+provides-dynamic-lookup:
+- "accuracy"
+- "setUp"
+- "subject"
+- "testAverageStringEntropy"
+- "testStringEntropy"
+depends-top-level:
+- "AssignmentPrecedence"
+- "String"
+- !private "StringLiteralType"
+- "String_EntropyTests"
+- !private "UnicodeScalarType"
+- !private "XCTAssertEqual"
+- "XCTestCase"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "averageEntropy"]
+- !private ["s23BidirectionalCollectionP", "entropy"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- !private ["s7CVarArgP", "accuracy"]
+- !private ["s7CVarArgP", "averageEntropy"]
+- !private ["s7CVarArgP", "entropy"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "subject"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "averageEntropy"]
+- !private ["s10CollectionP", "entropy"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "averageEntropy"]
+- !private ["s10ComparableP", "entropy"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "accuracy"]
+- !private ["s28CustomDebugStringConvertibleP", "averageEntropy"]
+- !private ["s28CustomDebugStringConvertibleP", "entropy"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "subject"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "averageEntropy"]
+- !private ["s29CustomPlaygroundQuickLookableP", "entropy"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "averageEntropy"]
+- !private ["s17CustomReflectableP", "entropy"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- !private ["s23CustomStringConvertibleP", "accuracy"]
+- !private ["s23CustomStringConvertibleP", "averageEntropy"]
+- !private ["s23CustomStringConvertibleP", "entropy"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "subject"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "averageEntropy"]
+- !private ["s9DecodableP", "entropy"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "averageEntropy"]
+- !private ["s9EncodableP", "entropy"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "XCTAssertEqual"]
+- !private ["s9EquatableP", "accuracy"]
+- !private ["s9EquatableP", "averageEntropy"]
+- !private ["s9EquatableP", "entropy"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "subject"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "averageEntropy"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "entropy"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "averageEntropy"]
+- !private ["s26ExpressibleByStringLiteralP", "entropy"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "averageEntropy"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "entropy"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "XCTAssertEqual"]
+- !private ["s8HashableP", "accuracy"]
+- !private ["s8HashableP", "averageEntropy"]
+- !private ["s8HashableP", "entropy"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "subject"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "averageEntropy"]
+- !private ["s25LosslessStringConvertibleP", "entropy"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "averageEntropy"]
+- !private ["s10MirrorPathP", "entropy"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "averageEntropy"]
+- !private ["So8NSCodingP", "entropy"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "averageEntropy"]
+- !private ["So9NSCopyingP", "entropy"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "averageEntropy"]
+- !private ["So21NSItemProviderReadingP", "entropy"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "averageEntropy"]
+- !private ["So21NSItemProviderWritingP", "entropy"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "averageEntropy"]
+- !private ["So16NSMutableCopyingP", "entropy"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- ["So8NSObjectC", "accuracy"]
+- !private ["So8NSObjectC", "averageEntropy"]
+- !private ["So8NSObjectC", "entropy"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "subject"]
+- ["So8NSObjectC", "testAverageStringEntropy"]
+- ["So8NSObjectC", "testStringEntropy"]
+- !private ["So16NSObjectProtocolP", "XCTAssertEqual"]
+- !private ["So16NSObjectProtocolP", "accuracy"]
+- !private ["So16NSObjectProtocolP", "averageEntropy"]
+- !private ["So16NSObjectProtocolP", "entropy"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "subject"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "averageEntropy"]
+- !private ["So14NSSecureCodingP", "entropy"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "averageEntropy"]
+- !private ["So8NSStringC", "entropy"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "averageEntropy"]
+- !private ["s26RangeReplaceableCollectionP", "entropy"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "averageEntropy"]
+- !private ["s8SequenceP", "entropy"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "averageEntropy"]
+- !private ["SS", "entropy"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "averageEntropy"]
+- !private ["s14StringProtocolP", "entropy"]
+- !private ["s14StringProtocolP", "init"]
+- ["22Password_StrengthTests014String_EntropyC0C", "String"]
+- !private ["22Password_StrengthTests014String_EntropyC0C", "XCTAssertEqual"]
+- ["22Password_StrengthTests014String_EntropyC0C", "accuracy"]
+- ["22Password_StrengthTests014String_EntropyC0C", "deinit"]
+- ["22Password_StrengthTests014String_EntropyC0C", "init"]
+- ["22Password_StrengthTests014String_EntropyC0C", "setUp"]
+- ["22Password_StrengthTests014String_EntropyC0C", "subject"]
+- ["22Password_StrengthTests014String_EntropyC0C", "testAverageStringEntropy"]
+- ["22Password_StrengthTests014String_EntropyC0C", "testStringEntropy"]
+- !private ["s16TextOutputStreamP", "averageEntropy"]
+- !private ["s16TextOutputStreamP", "entropy"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "averageEntropy"]
+- !private ["s20TextOutputStreamableP", "entropy"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- !private ["So11XCTActivityP", "accuracy"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "subject"]
+- ["So11XCTActivityP", ""]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- !private ["So17XCTWaiterDelegateP", "accuracy"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "subject"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So6XCTestC", "String"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- ["So6XCTestC", "accuracy"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "subject"]
+- ["So6XCTestC", "testAverageStringEntropy"]
+- ["So6XCTestC", "testStringEntropy"]
+- ["So10XCTestCaseC", "String"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- ["So10XCTestCaseC", "accuracy"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "subject"]
+- ["So10XCTestCaseC", "testAverageStringEntropy"]
+- ["So10XCTestCaseC", "testStringEntropy"]
+- ["So10XCTestCaseC", ""]
+- !private ["s23_BidirectionalIndexableP", "averageEntropy"]
+- !private ["s23_BidirectionalIndexableP", "entropy"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "averageEntropy"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "entropy"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "averageEntropy"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "entropy"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "averageEntropy"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "entropy"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "averageEntropy"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "entropy"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "averageEntropy"]
+- !private ["s33_ExpressibleByStringInterpolationP", "entropy"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "averageEntropy"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "entropy"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "averageEntropy"]
+- !private ["s10_IndexableP", "entropy"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "averageEntropy"]
+- !private ["s14_IndexableBaseP", "entropy"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accuracy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "averageEntropy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entropy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "averageEntropy"]
+- !private ["s21_ObjectiveCBridgeableP", "entropy"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "averageEntropy"]
+- !private ["s26_RangeReplaceableIndexableP", "entropy"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "averageEntropy"]
+- !private ["s16_SwiftStringViewP", "entropy"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "22Password_StrengthTests014String_EntropyC0C"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/seandorian/Code/PasswordStrength/Build/Intermediates/SwiftMigration/Password Strength/Products/Debug-iphonesimulator/Password_Strength.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "62c88c583f58a81121c9142ed1a96e9c"

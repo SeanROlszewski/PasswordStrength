@@ -1,0 +1,93 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MockNotificationCenter"
+provides-nominal:
+- "22Password_StrengthTests22MockNotificationCenterC"
+provides-member:
+- ["22Password_StrengthTests22MockNotificationCenterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "Int"
+- "MockNotificationCenter"
+- "NSNotification"
+- "NSObject"
+- "NSObjectProtocol"
+- "Notification"
+- "NotificationCenterProtocol"
+- "OperationQueue"
+depends-member:
+- ["s7CVarArgP", "Name"]
+- ["s7CVarArgP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "Name"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s9EquatableP", "Name"]
+- ["s9EquatableP", "init"]
+- ["s8HashableP", "Name"]
+- ["s8HashableP", "init"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "Int"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "NSNotification"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "NSObject"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "NSObjectProtocol"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "Notification"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "OperationQueue"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "addObserver"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "addObserverArguments"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "addObserverCall"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "deinit"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "init"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "post"]
+- ["22Password_StrengthTests22MockNotificationCenterC", "removeObserver"]
+- ["So8NSCodingP", "Name"]
+- ["So9NSCopyingP", "Name"]
+- ["So14NSNotificationC", "Name"]
+- ["So8NSObjectC", "Name"]
+- ["So8NSObjectC", "init"]
+- ["So16NSObjectProtocolP", "Name"]
+- ["So16NSObjectProtocolP", "init"]
+- ["17Password_Strength26NotificationCenterProtocolP", "NSObject"]
+- ["17Password_Strength26NotificationCenterProtocolP", "addObserver"]
+- !private ["17Password_Strength26NotificationCenterProtocolP", "addObserverCall"]
+- ["17Password_Strength26NotificationCenterProtocolP", "post"]
+- ["17Password_Strength26NotificationCenterProtocolP", "removeObserver"]
+- ["17Password_Strength26NotificationCenterProtocolP", ""]
+- ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "22Password_StrengthTests22MockNotificationCenterC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So14NSNotificationC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "17Password_Strength26NotificationCenterProtocolP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/seandorian/Code/PasswordStrength/Build/Intermediates/SwiftMigration/Password Strength/Products/Debug-iphonesimulator/Password_Strength.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "86bb8e75145a26d99012d09acb7cd5f5"

@@ -25,7 +25,7 @@ extension String {
             }
 
             
-            let numberOfCombinations = pow(Double(possibleCombinations), Double(self.characters.count))
+            let numberOfCombinations = pow(Double(possibleCombinations), Double(self.count))
             return log2(numberOfCombinations)
         }
     }
@@ -35,6 +35,6 @@ extension String {
             return 0
         }
         
-        return self.entropy/Double(self.characters.count)
+        return self.entropy/Double(self.count)
     }
 }

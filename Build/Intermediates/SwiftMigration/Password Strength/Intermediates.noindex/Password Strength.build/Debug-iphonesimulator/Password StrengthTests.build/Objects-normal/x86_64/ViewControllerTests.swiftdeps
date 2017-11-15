@@ -1,0 +1,587 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewControllerTests"
+provides-nominal:
+- "22Password_StrengthTests014ViewControllerC0C"
+provides-member:
+- ["22Password_StrengthTests014ViewControllerC0C", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "subject"
+- "testPasswordFieldHasWhiteBackgroundWhenEmpty"
+- "testPasswordFieldRejectsSpaces"
+- "testPasswordTextFieldUpdatesOnUserInput"
+- "testRegistersForNotifications"
+depends-top-level:
+- !private "!=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "MockNotificationCenter"
+- !private "Notification"
+- !private "StringLiteralType"
+- !private "UIStoryboard"
+- !private "UITextField"
+- !private "UnicodeScalarType"
+- "ViewController"
+- "ViewControllerTests"
+- !private "XCTAssert"
+- !private "XCTAssertEqual"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "MockNotificationCenter"]
+- !private ["s7CVarArgP", "Notification"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- !private ["s7CVarArgP", "XCTAssert"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateInitialViewController"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "mockNotificationCenter"]
+- !private ["s7CVarArgP", "notificationCenter"]
+- !private ["s7CVarArgP", "passwordTextField"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "subject"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "white"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "MockNotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "Notification"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "UITextFieldTextDidChange"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssert"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateInitialViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "mockNotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "notificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "passwordTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "subject"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "UITextFieldTextDidChange"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "red"]
+- !private ["s17CustomReflectableP", "white"]
+- !private ["s23CustomStringConvertibleP", "MockNotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "Notification"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- !private ["s23CustomStringConvertibleP", "XCTAssert"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateInitialViewController"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "mockNotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "notificationCenter"]
+- !private ["s23CustomStringConvertibleP", "passwordTextField"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "subject"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "UITextFieldTextDidChange"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "red"]
+- !private ["s9DecodableP", "white"]
+- !private ["s9EncodableP", "UITextFieldTextDidChange"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "red"]
+- !private ["s9EncodableP", "white"]
+- !private ["s9EquatableP", "MockNotificationCenter"]
+- !private ["s9EquatableP", "Notification"]
+- !private ["s9EquatableP", "UIStoryboard"]
+- !private ["s9EquatableP", "UITextFieldTextDidChange"]
+- !private ["s9EquatableP", "XCTAssert"]
+- !private ["s9EquatableP", "XCTAssertEqual"]
+- !private ["s9EquatableP", "XCTAssertTrue"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateInitialViewController"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "mockNotificationCenter"]
+- !private ["s9EquatableP", "notificationCenter"]
+- !private ["s9EquatableP", "passwordTextField"]
+- !private ["s9EquatableP", "red"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "subject"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "white"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s23ExpressibleByNilLiteralP", "UITextFieldTextDidChange"]
+- !private ["s23ExpressibleByNilLiteralP", "red"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s8HashableP", "MockNotificationCenter"]
+- !private ["s8HashableP", "Notification"]
+- !private ["s8HashableP", "UIStoryboard"]
+- !private ["s8HashableP", "UITextFieldTextDidChange"]
+- !private ["s8HashableP", "XCTAssert"]
+- !private ["s8HashableP", "XCTAssertEqual"]
+- !private ["s8HashableP", "XCTAssertTrue"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateInitialViewController"]
+- !private ["s8HashableP", "isEmpty"]
+- !private ["s8HashableP", "mockNotificationCenter"]
+- !private ["s8HashableP", "notificationCenter"]
+- !private ["s8HashableP", "passwordTextField"]
+- !private ["s8HashableP", "red"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "subject"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "white"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["22Password_StrengthTests22MockNotificationCenterC", "addObserverCall"]
+- !private ["22Password_StrengthTests22MockNotificationCenterC", "deinit"]
+- !private ["22Password_StrengthTests22MockNotificationCenterC", "init"]
+- !private ["22Password_StrengthTests22MockNotificationCenterC", "post"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "notificationCenter"]
+- !private ["So8NSCodingP", "passwordTextField"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "notificationCenter"]
+- !private ["So26NSExtensionRequestHandlingP", "passwordTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "MockNotificationCenter"]
+- !private ["So8NSObjectC", "Notification"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- !private ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "ViewController"]
+- !private ["So8NSObjectC", "XCTAssert"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateInitialViewController"]
+- !private ["So8NSObjectC", "isEmpty"]
+- ["So8NSObjectC", "mockNotificationCenter"]
+- !private ["So8NSObjectC", "notificationCenter"]
+- !private ["So8NSObjectC", "passwordTextField"]
+- !private ["So8NSObjectC", "red"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "subject"]
+- ["So8NSObjectC", "testPasswordFieldHasWhiteBackgroundWhenEmpty"]
+- ["So8NSObjectC", "testPasswordFieldRejectsSpaces"]
+- ["So8NSObjectC", "testPasswordTextFieldUpdatesOnUserInput"]
+- ["So8NSObjectC", "testRegistersForNotifications"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So16NSObjectProtocolP", "MockNotificationCenter"]
+- !private ["So16NSObjectProtocolP", "Notification"]
+- !private ["So16NSObjectProtocolP", "UIStoryboard"]
+- !private ["So16NSObjectProtocolP", "XCTAssert"]
+- !private ["So16NSObjectProtocolP", "XCTAssertEqual"]
+- !private ["So16NSObjectProtocolP", "XCTAssertTrue"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateInitialViewController"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- !private ["So16NSObjectProtocolP", "mockNotificationCenter"]
+- !private ["So16NSObjectProtocolP", "notificationCenter"]
+- !private ["So16NSObjectProtocolP", "passwordTextField"]
+- !private ["So16NSObjectProtocolP", "red"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "subject"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "white"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["So14NSNotificationC4NameV", "UITextFieldTextDidChange"]
+- !private ["10Foundation12NotificationV", "init"]
+- !private ["17Password_Strength26NotificationCenterProtocolP", "addObserverCall"]
+- !private ["17Password_Strength26NotificationCenterProtocolP", "init"]
+- !private ["17Password_Strength26NotificationCenterProtocolP", "post"]
+- !private ["Sq", "UITextFieldTextDidChange"]
+- !private ["Sq", "red"]
+- !private ["Sq", "white"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s16RawRepresentableP", "UITextFieldTextDidChange"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "notificationCenter"]
+- !private ["So21UIAppearanceContainerP", "passwordTextField"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So7UIColorC", "red"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "notificationCenter"]
+- !private ["So18UIContentContainerP", "passwordTextField"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "backgroundColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "backgroundColor"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "notificationCenter"]
+- !private ["So18UIFocusEnvironmentP", "passwordTextField"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "backgroundColor"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "notificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "passwordTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "notificationCenter"]
+- !private ["So11UIResponderC", "passwordTextField"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "notificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "passwordTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So16UIStateRestoringP", "notificationCenter"]
+- !private ["So16UIStateRestoringP", "passwordTextField"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateInitialViewController"]
+- !private ["So15UITextDraggableP", "backgroundColor"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "backgroundColor"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "backgroundColor"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "backgroundColor"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "backgroundColor"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "notificationCenter"]
+- !private ["So18UITraitEnvironmentP", "passwordTextField"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "notificationCenter"]
+- !private ["So16UIViewControllerC", "passwordTextField"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["17Password_Strength14ViewControllerC", "notificationCenter"]
+- !private ["17Password_Strength14ViewControllerC", "passwordTextField"]
+- !private ["17Password_Strength14ViewControllerC", "view"]
+- ["22Password_StrengthTests014ViewControllerC0C", "MockNotificationCenter"]
+- !private ["22Password_StrengthTests014ViewControllerC0C", "Notification"]
+- !private ["22Password_StrengthTests014ViewControllerC0C", "UIStoryboard"]
+- !private ["22Password_StrengthTests014ViewControllerC0C", "UITextField"]
+- ["22Password_StrengthTests014ViewControllerC0C", "ViewController"]
+- !private ["22Password_StrengthTests014ViewControllerC0C", "XCTAssert"]
+- !private ["22Password_StrengthTests014ViewControllerC0C", "XCTAssertEqual"]
+- !private ["22Password_StrengthTests014ViewControllerC0C", "XCTAssertTrue"]
+- ["22Password_StrengthTests014ViewControllerC0C", "deinit"]
+- ["22Password_StrengthTests014ViewControllerC0C", "init"]
+- ["22Password_StrengthTests014ViewControllerC0C", "mockNotificationCenter"]
+- ["22Password_StrengthTests014ViewControllerC0C", "setUp"]
+- ["22Password_StrengthTests014ViewControllerC0C", "subject"]
+- ["22Password_StrengthTests014ViewControllerC0C", "testPasswordFieldHasWhiteBackgroundWhenEmpty"]
+- ["22Password_StrengthTests014ViewControllerC0C", "testPasswordFieldRejectsSpaces"]
+- ["22Password_StrengthTests014ViewControllerC0C", "testPasswordTextFieldUpdatesOnUserInput"]
+- ["22Password_StrengthTests014ViewControllerC0C", "testRegistersForNotifications"]
+- !private ["So11XCTActivityP", "MockNotificationCenter"]
+- !private ["So11XCTActivityP", "Notification"]
+- !private ["So11XCTActivityP", "UIStoryboard"]
+- !private ["So11XCTActivityP", "XCTAssert"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "mockNotificationCenter"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "subject"]
+- ["So11XCTActivityP", ""]
+- !private ["So17XCTWaiterDelegateP", "MockNotificationCenter"]
+- !private ["So17XCTWaiterDelegateP", "Notification"]
+- !private ["So17XCTWaiterDelegateP", "UIStoryboard"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssert"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "mockNotificationCenter"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "subject"]
+- ["So17XCTWaiterDelegateP", ""]
+- ["So6XCTestC", "MockNotificationCenter"]
+- !private ["So6XCTestC", "Notification"]
+- !private ["So6XCTestC", "UIStoryboard"]
+- !private ["So6XCTestC", "UITextField"]
+- ["So6XCTestC", "ViewController"]
+- !private ["So6XCTestC", "XCTAssert"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "mockNotificationCenter"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "subject"]
+- ["So6XCTestC", "testPasswordFieldHasWhiteBackgroundWhenEmpty"]
+- ["So6XCTestC", "testPasswordFieldRejectsSpaces"]
+- ["So6XCTestC", "testPasswordTextFieldUpdatesOnUserInput"]
+- ["So6XCTestC", "testRegistersForNotifications"]
+- ["So10XCTestCaseC", "MockNotificationCenter"]
+- !private ["So10XCTestCaseC", "Notification"]
+- !private ["So10XCTestCaseC", "UIStoryboard"]
+- !private ["So10XCTestCaseC", "UITextField"]
+- ["So10XCTestCaseC", "ViewController"]
+- !private ["So10XCTestCaseC", "XCTAssert"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "mockNotificationCenter"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "subject"]
+- ["So10XCTestCaseC", "testPasswordFieldHasWhiteBackgroundWhenEmpty"]
+- ["So10XCTestCaseC", "testPasswordFieldRejectsSpaces"]
+- ["So10XCTestCaseC", "testPasswordTextFieldUpdatesOnUserInput"]
+- ["So10XCTestCaseC", "testRegistersForNotifications"]
+- ["So10XCTestCaseC", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MockNotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Notification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateInitialViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mockNotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passwordTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "UITextFieldTextDidChange"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "red"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- !private ["s20_SwiftNewtypeWrapperP", "UITextFieldTextDidChange"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "22Password_StrengthTests22MockNotificationCenterC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So14NSNotificationC4NameV"
+- !private "10Foundation12NotificationV"
+- !private "17Password_Strength26NotificationCenterProtocolP"
+- !private "Sq"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- !private "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "17Password_Strength14ViewControllerC"
+- "22Password_StrengthTests014ViewControllerC0C"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/seandorian/Code/PasswordStrength/Build/Intermediates/SwiftMigration/Password Strength/Products/Debug-iphonesimulator/Password_Strength.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "c0e60f9f8130667adecf9dd015d1a61c"
